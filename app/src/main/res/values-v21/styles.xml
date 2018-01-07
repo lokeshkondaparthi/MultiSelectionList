@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MultiDialogStyle" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:windowTitleBackgroundStyle">@style/MultityDialogTitle</item>
+    </style>
+
+    <style name="MultityDialogTitle" parent="android:Widget.TextView">
+        <item name="android:colorForeground">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorAccent</item>
+    </style>
+</resources>

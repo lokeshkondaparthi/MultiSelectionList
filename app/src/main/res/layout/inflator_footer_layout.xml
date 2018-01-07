@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/footer_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ok"
+        android:layout_marginRight="22dp"
+        android:layout_toLeftOf="@+id/footer_cancel"
+        android:textSize="22dp"/>
+    <TextView
+        android:id="@+id/footer_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cancel"
+        android:layout_alignParentRight="true"
+        android:textSize="22dp"/>
+</RelativeLayout>
